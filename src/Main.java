@@ -7,13 +7,13 @@ public class Main {
         final byte PERCENT = 100;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Please enter your Principal amount ($): ");
+        System.out.print("Principal ($): ");
         int principal = scanner.nextInt();
 
-        System.out.print("Please enter your Annual Interest Rate (%): ");
+        System.out.print("Annual Interest Rate (%): ");
         float annualInterest = scanner.nextFloat();
 
-        System.out.print("Please enter your Period (years): ");
+        System.out.print("Period (years): ");
         byte years = scanner.nextByte();
 
         float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
